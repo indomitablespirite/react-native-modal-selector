@@ -1,6 +1,6 @@
 'use strict';
 
-import { StyleSheet } from 'react-native';
+import {StyleSheet} from 'react-native';
 
 const PADDING = 8;
 const BORDER_RADIUS = 5;
@@ -80,5 +80,11 @@ export default StyleSheet.create({
         textAlign: 'center',
         fontSize:  FONT_SIZE,
         color:     '#d3d3d3',
+    },
+    titleTextStyle: {
+        textAlign: 'left',
+    },
+    titleStyle: {
+        backgroundColor: '#ececec',
     },
 });
